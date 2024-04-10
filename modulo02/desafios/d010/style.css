@@ -64,17 +64,14 @@ header p {
     padding-bottom: 20px;
 }
 
-nav{
-    max-width: 500px;
-}
-
 nav a {
+    line-height: 30px;
+    padding: 45px;
     border-radius: 5px;
     color: white;
     font-weight: bold;
     text-decoration: none;
     padding: 10px;
-    padding-right: 40px;
 }
 
 
