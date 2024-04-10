@@ -69,13 +69,12 @@ nav{
 }
 
 nav a {
-    line-height: 40px;
     border-radius: 5px;
     color: white;
     font-weight: bold;
     text-decoration: none;
     padding: 10px;
-    padding-right: 20px;
+    padding-right: 40px;
 }
 
 
