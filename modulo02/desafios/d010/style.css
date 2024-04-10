@@ -32,6 +32,7 @@ body {
 
 
 header {
+    text-align: justify;
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5), #043d1c);
     box-shadow: 1px 8px 10px 0px #0000006a;
     min-height: 150px;
@@ -63,12 +64,18 @@ header p {
     padding-bottom: 20px;
 }
 
+nav{
+    max-width: 500px;
+}
+
 nav a {
+    line-height: 40px;
     border-radius: 5px;
     color: white;
     font-weight: bold;
     text-decoration: none;
     padding: 10px;
+    padding-right: 20px;
 }
 
 
