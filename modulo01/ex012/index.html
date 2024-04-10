@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Vídeos Hospedados Localmente</h1>
+    <p>
+        Este vídeo está hospedado no meu próprio servidor.
+    </p>
+    <video controls width="500" height="600">
+        <source src="media/chimken.ogv" type="video/ogg">
+        <source src="media/chimken_70.mp4" type="video/mp4">
+        <source src="media/chimken.webp" type="video/webp">
+        <p>
+            Seu navegador não tem compatibilidade para a reprodução de vídeos :(
+        </p>
+    </video>
+    <h1>Inserindo Vídeos com YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h1>Inserindo Vídeos com Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/250678931?h=8597bf15ff" width="580" height="315" frameborder="1" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
