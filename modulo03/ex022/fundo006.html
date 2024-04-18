@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo Fixo de Tela</title>
+    <style>
+        body {
+            background-size: cover;
+            /* 
+                Shorthand - Background 
+                color > image > position > repeat > [size] (não funciona na prática mas está na documentação oficial) > attachment
+            */
+            background: black url(img/wallpaper002.jpg) center center no-repeat fixed;
+        }
+
+        main {
+            background-color: white;
+            max-width: 700px;
+            margin: auto;
+            border: 1px solid red;
+            border-radius: 15px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de Imagem de Fundo</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae blanditiis, laboriosam voluptatibus harum aperiam eius officia sint fugit, quia, a quo? Aspernatur, dolores aut! Placeat commodi autem molestiae explicabo non.
+        </p>
+    </main>
+</body>
+</html>
