@@ -58,6 +58,7 @@ section {
 }
 
 section > p {
+    display: inline-block;
     padding-bottom: 2em;
 }
 
@@ -73,7 +74,6 @@ section.imagem {
 }
 
 section.imagem > p {
-    display: inline-block;
     padding: 5px;
     background-color: #00000066;
     width: 400px;
