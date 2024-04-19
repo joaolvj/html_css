@@ -47,12 +47,16 @@ header a:hover, footer a:hover {
 }
 
 section {
-    font-family: var(--fonte3);
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    font-size: 2vw;
+    font-size: 3.5vw;
+    font-family: var(--fonte3);
     padding-left: 30px;
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 
 section.normal {
@@ -61,6 +65,7 @@ section.normal {
 }
 
 section.imagem {
+    box-shadow: black inset 6px 6px 13px;
     background-color: #222222;
     color: white;
 }
@@ -68,10 +73,22 @@ section.imagem {
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.399);
+    background-color: #00000066;
     width: 400px;
 }
 
+section#img01 {
+    background-attachment: fixed;
+    background-position: right center;
+    background-size: cover;
+    background-image: url(img/pacote-d012/imagens/background001.jpg);
+}
+
+section#img02 {
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(img/pacote-d012/imagens/background002.jpg);
+}
 
 footer {
     background-color: black;
