@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        .c_nome {
+            background-color: aquamarine;
+        }
+
+        .c_sexo {
+            background-color: blueviolet;
+        }
+
+        .c_grupo {
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+        <caption>Cadastros</caption>
+        <colgroup>
+            <col class="c_nome">
+            <col class="c_sexo">
+            <col class="c_grupo" span="2">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>João</td>
+                <td>M</td>
+                <td>23</td>
+                <td>Administrador de Sis.</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>34</td>
+                <td>Padeira</td>
+            </tr>
+            <tr>
+                <td>Júlio</td>
+                <td>M</td>
+                <td>77</td>
+                <td>Marceneiro</td>
+            </tr>
+            <tr>
+                <td>Heitor</td>
+                <td>M</td>
+                <td>44</td>
+                <td>Pedreiro</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
