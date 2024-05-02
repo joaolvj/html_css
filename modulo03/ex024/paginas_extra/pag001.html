@@ -7,6 +7,7 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
         }
 
         table {
@@ -18,7 +19,7 @@
 
         td, th {
             border: 1px solid black;
-            padding: 15px;
+            padding: 10px;
         }
 
         thead {
@@ -26,8 +27,16 @@
             top: -1px;
         }
 
+        th {
+            background-color: gray;
+        }
+
         tbody > tr:nth-child(even) { /* 2n - 1 */
             background-color: lightgray;
+        }
+
+        tbody > tr {
+            background-color: white;
         }
         
         caption {
@@ -42,9 +51,6 @@
     </style>
 </head>
 <body>
-    <h1>Tabelas em Telas Pequenas</h1>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, aliquid repellendus est amet nemo unde iste esse minima vel placeat nobis ab quibusdam culpa debitis, animi maxime ad. Possimus nesciunt dolorem quas excepturi, aspernatur aliquid iusto fugiat voluptates quidem tempore.
     </p>
     <div class="container">
         <table>
