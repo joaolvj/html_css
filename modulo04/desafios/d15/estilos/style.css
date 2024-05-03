@@ -31,15 +31,17 @@ section#telefone {
     height: 627px;
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat;
-    border-radius: 54px 60px;
     border: 0px;
 }
-
+iframe::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
 iframe#tela {
     position: relative;
     top: 81px;
     left: 22px;
-    width: 268px;
+    width: 267px;
     height: 470px;
     border-radius: 2px;
 }
@@ -49,7 +51,7 @@ section#redes-sociais img {
     height: 50px;
     margin: 15px;
     border-radius: 50%;
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 2px 2px 3px black;
 }
 
 ul#menu {
@@ -57,7 +59,7 @@ ul#menu {
 }
 
 ul#menu img:hover {
-    border: 2px lightgray solid;
+    border: 3px lightgray solid;
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px black;
     transition: .2s
